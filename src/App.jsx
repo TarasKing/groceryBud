@@ -34,7 +34,6 @@ function App() {
     const newItems = [...items, newItem];
     setItems(newItems);
     setLocalStorage(newItems);
-    toast.success(`Item: "${itemName}" added successfully`);
   };
 
   const removeItem = (itemId) => {

@@ -10,7 +10,6 @@ const SingleItem = ({ item, removeItem, editItem }) => {
       />
       <p
         style={{
-          textTransform: "capitalize",
           textDecoration: item.complete && "line-through",
         }}
       >
